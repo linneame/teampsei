@@ -72,6 +72,52 @@ nav a:hover::before{
   width:100%;
 }
 
+#service-support h1{
+  padding-top:3%;
+  padding-bottom: 1%;
+  color: #014E96;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5em;
+}
+
+#service-support p{
+  font-family: 'Quicksand', sans-serif;
+  line-height: 2em;
+  text-align: center;
+}
+
+#service-support a{
+    text-decoration: none;
+    color: #014E96;
+  }
+
+  #service-support a:hover{
+    color:#9BCDCD;
+  }
+
+.container2{
+    text-align: center;
+  }
+
+
+  .footer {
+    background-color: #ffffff;
+    height: 150px;
+    padding: 2%;
+    overflow: hidden;
+    margin-top: 4%;
+  }
+
+  .column {
+    background-color: #def2f1;
+    float: left;
+    width: 30%;
+    margin: 20px 1.15%;
+    height: 70%;
+  }
+
+
 
 
 
