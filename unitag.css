@@ -6,35 +6,82 @@ body{
   margin:0;
 }
 
+.container{
+  width:80%;
+  margin: 0 auto;
+}
+
 header{
   background-color: #ffffff;
-  padding-top: 0.5%;
-  min-height: 150px;
 }
 
-header h1{
-  color:#def2f1;
+header::after{
+  content:'';
+  display: table;
+  clear: both;
 }
 
-header img, li{
-  display: inline;
+.logo{
+  float: left;
 }
 
-header a{
+nav{
+  float: right;
+}
+nav ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 4em;
+  padding-top: 6%;
+
+  position:relative;
+}
+
+nav a{
   color:#014E96;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.1em;
 }
 
-header a:hover{
+nav a:hover{
   color:#9BCDCD;
 }
 
-header ul{
-  margin-left:30%;
+nav a::before{
+  content:'';
+  display: block;
+  height:0.25em;
+  background-color: #014E96;
+
+  position:absolute;
+  top:0;
+  width:0%;
+
+  transition: all ease-in-out 250ms;
 }
 
-header li{
-  display: inline;
-  padding-left: 4%;
-  font-size: 1.2em;
-  text-transform: uppercase;
+nav a:hover::before{
+  width:100%;
 }
+
+
+
+
+
+/*@media screen and (min width: 400px){
+  nav, ul, li{
+    flex:none;
+  }
+  nav, ul{
+    justify-content:center;
+  }
+}
+*/
