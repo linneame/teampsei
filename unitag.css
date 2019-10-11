@@ -158,6 +158,28 @@ nav a:hover::before{
     padding: 0% 30%;
   }
 
+  .dummymain {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 2em;
+    text-align: center;
+    padding: 5%;
+  }
+
+  .dummymain h1 {
+    color: #014E96;
+    text-transform: uppercase;
+  }
+
+  .dummymain a {
+    text-decoration: none;
+    color: #014E96;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .dummymain a:hover {
+    color: #9BCDCD;
+    }
 
 /*@media screen and (min width: 400px){
   nav, ul, li{
