@@ -91,6 +91,7 @@ nav a:hover::before{
 #service-support a{
     text-decoration: none;
     color: #014E96;
+    font-weight: bold;
   }
 
   #service-support a:hover{
