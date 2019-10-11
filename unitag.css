@@ -13,6 +13,7 @@ body{
 
 header{
   background-color: #ffffff;
+  overflow:hidden;
 }
 
 header::after{
@@ -90,6 +91,7 @@ nav a:hover::before{
 #service-support a{
     text-decoration: none;
     color: #014E96;
+    font-weight: bold;
   }
 
   #service-support a:hover{
@@ -156,8 +158,31 @@ nav a:hover::before{
     line-height: 1.5;
     text-align: center;
     padding: 0% 30%;
+    line-height: 2em;
   }
 
+  .dummymain {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 2em;
+    text-align: center;
+    padding: 5%;
+  }
+
+  .dummymain h1 {
+    color: #014E96;
+    text-transform: uppercase;
+  }
+
+  .dummymain a {
+    text-decoration: none;
+    color: #014E96;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .dummymain a:hover {
+    color: #9BCDCD;
+    }
 
 /*@media screen and (min width: 400px){
   nav, ul, li{
