@@ -97,6 +97,21 @@ nav a:hover::before{
     color:#9BCDCD;
   }
 
+#om_oss h1{
+  padding-top:3%;
+  padding-bottom: 1%;
+  color: #014E96;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5em;
+}
+
+#om_oss p{
+  font-family: 'Quicksand', sans-serif;
+  line-height: 2em;
+  text-align: center;
+}
+
 .container2{
     text-align: center;
   }
@@ -118,9 +133,31 @@ nav a:hover::before{
     height: 70%;
   }
 
+  .pageinfo h1{
+    padding-top:3%;
+    padding-bottom: 1%;
+    color: #014E96;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+  }
 
+  .pageinfo h2{
+    padding: 0% 0% 1% 0%;
+    color: #014E96;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+  }
 
-
+  .pageinfo p{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0% 30%;
+  }
 
 
 /*@media screen and (min width: 400px){
