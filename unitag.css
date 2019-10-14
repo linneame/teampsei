@@ -73,6 +73,14 @@ nav a:hover::before{
   width:100%;
 }
 
+.huvudbild{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 3%;
+}
+
 #service-support h1{
   padding-top:3%;
   padding-bottom: 1%;
