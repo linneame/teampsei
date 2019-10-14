@@ -113,6 +113,56 @@ nav a:hover::before{
   text-align: center;
 }
 
+.loginbox h1{
+  font-family: 'Quicksand', sans-serif;
+  color:#014E96;
+  margin-top: 3%;
+}
+
+.loginbox input{
+  width: 20%;
+}
+
+.loginbox input[type="text"], input[type="Lösenord"]{
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  height: 40px;
+  color:#7c7c7c;
+  font-size: 16px;
+  font-family:'Quicksand', sans-serif;
+}
+
+.loginbox input[type="submit"]{
+  border: none;
+  height: 30px;
+  background: #014E96;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  margin: 2%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.loginbox input[type="submit"]:hover{
+  cursor: pointer;
+  background: #9BCDCD;
+  color: #000;
+}
+
+.loginbox a{
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 30px;
+  color: #000;
+}
+
+.loginbox a:hover{
+  color: #9BCDCD;
+}
+
+
 .container2{
     text-align: center;
   }
