@@ -107,7 +107,7 @@ nav a:hover::before{
  text-align: center;
  font-size: 16px;
  cursor: pointer;
- margin-left: 43.5em;
+ margin-left: 42em;
  text-transform: uppercase;
  font-family: 'Quicksand', sans-serif;
  text-decoration: none;
@@ -204,7 +204,7 @@ nav a:hover::before{
 .loginbox input[type="submit"]:hover{
   cursor: pointer;
   background: #9BCDCD;
-  color: #000;
+  color: #014E96;
 }
 
 .loginbox a{
@@ -234,7 +234,7 @@ nav a:hover::before{
 
 .order input[type="text"]{
   margin-bottom: 15px;
-  width: 25%;
+  width: 80%;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -243,7 +243,7 @@ nav a:hover::before{
 }
 
 .order input[type="submit"]{
-  width: 27%;
+  width: 70%;
   height: 45px;
   border: none;
   background: #014E96;
@@ -253,7 +253,7 @@ nav a:hover::before{
 .order input[type="submit"]:hover{
   cursor: pointer;
   background: #9BCDCD;
-  color: #000;
+  color: #014E96;
 }
 
 .order input:focus{
@@ -269,10 +269,10 @@ nav a:hover::before{
 
 .container2{
     text-align: center;
-  }
+}
 
 
-  .footer {
+.footer {
     background-color: #ffffff;
     height: 150px;
     overflow: hidden;
@@ -280,17 +280,18 @@ nav a:hover::before{
   }
 
   .column {
-  /*  background-color: #def2f1; */
-    float: left;
-    width: 30%;
-   margin: 1.15%;
-    height: 70%;
-  }
+    /*  background-color: #def2f1; */
+      float: left;
+      width: 30%;
+     margin: 1.15%;
+      height: 70%;
+    }
+
   .column h1, ul {
-    text-align: left;
-    font-size: 0.8em;
-    font-family: 'Quicksand', sans-serif;
-  }
+      text-align: left;
+      font-size: 0.8em;
+      font-family: 'Quicksand', sans-serif;
+    }
 
   .column h1 {
     margin-left: 40%;
@@ -311,15 +312,15 @@ nav a:hover::before{
     margin-top: 5%;
   }
 
-  .footer2{
+.footer2{
       background-color: #ffffff;
       height: 200px;
       padding: 2%;
       overflow: hidden;
-    }
+  }
 
 
-  .pageinfo h1{
+.pageinfo h1{
     padding-top:3%;
     color: #014E96;
     text-transform: uppercase;
@@ -328,7 +329,7 @@ nav a:hover::before{
     text-align: center;
   }
 
-  .pageinfo h2{
+.pageinfo h2{
     padding: 0% 0% 1% 0%;
     color: #014E96;
     text-transform: uppercase;
@@ -337,7 +338,7 @@ nav a:hover::before{
     text-align: center;
   }
 
-  .pageinfo p{
+.pageinfo p{
     font-family: 'Quicksand', sans-serif;
     line-height: 1.5;
     text-align: center;
@@ -345,28 +346,46 @@ nav a:hover::before{
     line-height: 2em;
   }
 
-  .dummymain {
+.dummymain {
     font-family: 'Quicksand', sans-serif;
     line-height: 2em;
     text-align: center;
     padding: 5%;
   }
 
-  .dummymain h1 {
+.dummymain h1 {
     color: #014E96;
     text-transform: uppercase;
   }
 
-  .dummymain a {
+.dummymain a {
     text-decoration: none;
     color: #014E96;
     text-transform: uppercase;
     font-weight: bold;
   }
 
-  .dummymain a:hover {
+.dummymain a:hover {
     color: #9BCDCD;
-    }
+  }
+
+  .order{
+    position: absolute;
+    z-index: 2;
+    margin-top: -31em;
+    margin-left: 40.7em;
+  }
+
+.bg{
+  background-color: #fff;
+  margin-top: 2em;
+  padding-top:32em;
+  margin-right: 28em;
+  margin-left: 28em;
+  position: relative;
+  z-index: 1;
+}
+
 
 
 
