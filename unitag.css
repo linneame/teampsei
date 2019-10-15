@@ -183,7 +183,7 @@ nav a:hover::before{
   border: none;
   border-bottom: 1px solid #000;
   background: transparent;
-  height: 40px;
+  height: 50px;
   color:#7c7c7c;
   font-size: 16px;
   font-family:'Quicksand', sans-serif;
@@ -191,12 +191,12 @@ nav a:hover::before{
 
 .loginbox input[type="submit"]{
   border: none;
-  height: 30px;
+  height: 40px;
   background: #014E96;
   color: #fff;
   font-size: 18px;
   border-radius: 20px;
-  margin: 2%;
+  margin: 4%;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -218,6 +218,53 @@ nav a:hover::before{
   color: #9BCDCD;
 }
 
+.order h1{
+  font-family: 'Quicksand', sans-serif;
+  color:#014E96;
+  margin-top: 3%;
+}
+
+.order input{
+  padding: 10px;
+  font-size: inherit;
+  color: #000;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.order input[type="text"]{
+  margin-bottom: 15px;
+  width: 25%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.order input[type="radio"]{
+  margin: 0 8px 30px 20px;
+}
+
+.order input[type="submit"]{
+  width: 27%;
+  height: 45px;
+  border: none;
+  background: #014E96;
+  color: #fff;
+}
+
+.order input[type="submit"]:hover{
+  cursor: pointer;
+  background: #9BCDCD;
+  color: #000;
+}
+
+.order input:focus{
+  background: #fff;
+}
+
+.order input[type="radio"]:checked + lable{
+  font-weight: bold;
+  font-size: 25px;
+  color: #014E96;
+  font-family: 'Quicksand', sans-serif;
+}
 
 .container2{
     text-align: center;
