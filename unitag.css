@@ -276,6 +276,7 @@ nav a:hover::before{
     background-color: #ffffff;
     height: 150px;
     overflow: hidden;
+    clear: both;
     margin-top: 4%;
   }
 
@@ -319,7 +320,22 @@ nav a:hover::before{
       overflow: hidden;
   }
 
+  .pageinfo {
+    text-align: left;
+  }
+  .pageinfo1 {
+    float: left;
+    width: 40%;
+    background-color: #ffffff;
+    margin: 2% 5%;
+  }
 
+  .pageinfo2 {
+    float: left;
+    width: 40%;
+    background-color: #ffffff;
+    margin: 2% 5%;
+  }
 .pageinfo h1{
     padding-top:3%;
     color: #014E96;
@@ -341,9 +357,44 @@ nav a:hover::before{
 .pageinfo p{
     font-family: 'Quicksand', sans-serif;
     line-height: 1.5;
-    text-align: center;
-    padding: 0% 20%;
+    padding: 0% 10%;
     line-height: 2em;
+  }
+
+  table {
+    margin: 2% 5%;
+    width: 80%;
+  /*  position: 50%; */
+  }
+
+  .flattable {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    overflow: auto;
+    width: 70%;
+    margin-left: 10%;
+  }
+
+  th {
+  background-color: rgb(112, 196, 105);
+  color: white;
+  font-weight: normal;
+  padding: 15px 30px;
+  text-align: center;
+}
+td {
+  background-color: rgb(238, 238, 238);
+  color: rgb(111, 111, 111);
+  padding: 15px 30px;
+}
+
+  #bildtagg {
+    float: left;
+    width: 48%;
+    height: 24%;
+    margin-left: 15%;
+    margin-right: 2%;
   }
 
 .dummymain {
