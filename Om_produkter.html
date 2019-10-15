@@ -18,9 +18,11 @@
       }
       p {
         padding: 0% 30%
-      }
-  /*    .pageinfo {
+      } */
+      .pageinfo {
         text-align: center;
+        overflow: auto;
+        clear: both;
       }
       /*.footer {
         background-color: #ffffff;
@@ -36,9 +38,20 @@
         margin: 20px 1.15%;
         height: 70%;
       } */
+      #bildtagg {
+        float: left;
+        width: 28%;
+        height: 14%;
+        margin-left: 15%;
+        margin-right: 2%;
+      }
       table {
         margin: 0% 35%;
         position: 50%;
+      }
+      .pageinfo p:first-of-type {
+        text-transform: uppercase;
+        font-size: 1.2em;
       }
     </style>
   </head>
@@ -46,24 +59,27 @@
     <header>
       <!--<h1>Rubrik</h1>-->
       <div class="container">
-          <img src="sample.jpeg" alt="Företagslogga" class="logo">
+        <a href="index.html"><img src="sample.jpeg"
+          alt="Företagslogga" class="logo"></a>
       <nav>
 	       <ul>
 	           <li><a href="index.html">Hem</a></li>
-	           <li><a href="">Om oss</a></li>
+	           <li><a href="om_oss.html">Om oss</a></li>
 	           <li><a href="om_produkter.html">Våra modeller</a></li>
              <li><a href="servicecenter_support.html">Service & support</a></li>
-             <li><a href=""><i class="material-icons">account_circle</i> Logga in</a></li>
+             <li><a href="logga_in.html"><i class="material-icons">account_circle</i> Logga in</a></li>
              <li><a href=""><i class="material-icons">shopping_cart</i> Shop</a></li>
 	        </ul>
        </nav>
     </header>
     <div class="pageinfo">
+    <article>
       <h1>Om våra produkter</h1>
       <h2>UniTag & UniChip</h2>
       <p>Vi vill göra det enklare med UniTag – Allt du behöver</p>
       <p>Med UniTag har du dina nycklar på ett och samma ställe - tiden då du
         får leta efter rätt nyckel är förbi!</p>
+        <img id="bildtagg"src="hemsida-img.jpg" alt="Bild på UniTag produkt">
       <p>För att undvika att ha massor med olika nycklar har vi förenklat
         för individen, vi har utvecklat ett system som ger dig kontroll
         över vem som kan gå in genom dörren. Du kan själv välja att
@@ -74,6 +90,7 @@
         just du är på plats och det går även att övervaka ditt lås för
         att se vem det är som gått in hemma hos dig. UniTag är personlig
         och endast du kan använda din tagg. </p>
+
       <p>Beröringsfri tagg utförd i högblankt PVC material.</p>
       <table width="30%" border="1" cellpadding="7">
         <tr>
@@ -104,6 +121,45 @@
           <td>Grön Blå</td>
         </tr>
       </table>
+
+      <h2>UniChip</h2>
+      <p>Om du har ont i händerna, kognitiva svårigheter eller har
+        svårt att hålla reda på en tagg finns den mer avancerade
+        lösningen med UniChip. Den placeras under huden både
+        smidigt och utan biverkningar på något av våra service-center
+        och vi erbjuder livstids garanti med regelbundna kontroller.
+        Med UniChip har du samma möjligheter att koppla flera olika
+        nycklar till din personliga UniTag eller UniChip.</p>
+        <table width="30%" border="1" cellpadding="7">
+          <tr>
+            <td colspan="2">Teknisk Specifikation UNITAG</td>
+          </tr>
+          <tr>
+            <td>Storlek</td>
+            <td>5x5x1,5 cm</td>
+          </tr>
+          <tr>
+            <td>Vikt</td>
+            <td>20 gram</td>
+          </tr>
+          <tr>
+            <td>Batteri</td>
+            <td>Ja - 5 års hållbarhet</td>
+          </tr>
+          <tr>
+            <td>Garanti</td>
+            <td>Livstid</td>
+          </tr>
+          <tr>
+            <td>Kretskort</td>
+            <td>ABC1337</td>
+          </tr>
+          <tr>
+            <td>Färg</td>
+            <td>Grön Blå</td>
+          </tr>
+        </table>
+    </article>
     </div>
     <footer>
     <div class="footer">
