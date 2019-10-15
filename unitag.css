@@ -274,23 +274,42 @@ nav a:hover::before{
 
 .footer {
     background-color: #ffffff;
-    height: 200px;
-    padding: 2%;
+    height: 150px;
     overflow: hidden;
     margin-top: 4%;
   }
 
-.column {
-    background-color: #def2f1;
-    float: left;
-    width: 30%;
-    margin: 20px 1.15%;
-    height: 70%;
+  .column {
+    /*  background-color: #def2f1; */
+      float: left;
+      width: 30%;
+     margin: 1.15%;
+      height: 70%;
+    }
+
+  .column h1, ul {
+      text-align: left;
+      font-size: 0.8em;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+  .column h1 {
+    margin-left: 40%;
+    font-size: 0.9em;
+  }
+  .column li {
+    margin-left: 34%;
   }
 
-.column h1, ul {
-    text-align: center;
-    font-size: 0.8em;
+  .lista {
+    list-style-type: none;
+  }
+
+  .loggor {
+    width: 33%;
+    height: 33%;
+    float: left;
+    margin-top: 5%;
   }
 
 .footer2{
