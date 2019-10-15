@@ -74,7 +74,7 @@ nav a:hover::before{
 
 
 
-.box{
+.box1{
   box-sizing: border-box;
   border: none;
   height:50em;
@@ -124,7 +124,7 @@ nav a:hover::before{
   text-align: center;
   font-size: 16px;
   cursor: pointer;
-  margin-left: 43.5em;
+  margin-left: 42em;
   text-transform: uppercase;
   font-family: 'Quicksand', sans-serif;
   text-decoration: none;
@@ -142,18 +142,18 @@ nav a:hover::before{
 #service-support p{
   font-family: 'Quicksand', sans-serif;
   line-height: 2em;
-  text-align: center;
+  text-align: left;
 }
 
 #service-support a{
-    text-decoration: none;
-    color: #014E96;
-    font-weight: bold;
-  }
+  text-decoration: none;
+  color: #014E96;
+  font-weight: bold;
+}
 
-  #service-support a:hover{
-    color:#9BCDCD;
-  }
+#service-support a:hover{
+  color:#9BCDCD;
+}
 
 #om_oss h1{
   padding-top:3%;
@@ -386,7 +386,38 @@ nav a:hover::before{
   z-index: 1;
 }
 
+.box2{
+  box-sizing: border-box;
+  border: none;
+  height:50em;
+  background-image: url(service.jpg);
+  background-repeat: no-repeat;
+  overflow: none;
+  background-position: center;
+  opacity: 0.6;
+  z-index: 1;
+  position: relative;
+}
 
+.boxtext2{
+  margin-top: -48em;
+  margin-left: 14%;
+  margin-right: 14%;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-bottom: 2em;
+  text-align: center;
+  color: #014E96;
+  font-family: 'Quicksand', sans-serif;
+  opacity: 0.9;
+  z-index: 2;
+  position: absolute;
+  background-color: #def2f1;
+}
+
+#tider{
+  text-align: center;
+}
 
 
 /*@media screen and (min width: 400px){
