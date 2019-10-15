@@ -7,53 +7,6 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <style media="screen">
-  /*    body {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      h1 {
-        padding: 1%;
-      }
-      p {
-        padding: 0% 30%
-      } */
-      .pageinfo {
-        text-align: center;
-        overflow: auto;
-        clear: both;
-      }
-      /*.footer {
-        background-color: #ffffff;
-        height: 150px;
-        padding: 2%;
-        overflow: hidden;
-        margin-top: 4%;
-      }
-      .column {
-        background-color: #DEF2F1;
-        float: left;
-        width: 31%;
-        margin: 20px 1.15%;
-        height: 70%;
-      } */
-      #bildtagg {
-        float: left;
-        width: 28%;
-        height: 14%;
-        margin-left: 15%;
-        margin-right: 2%;
-      }
-      table {
-        margin: 0% 35%;
-        position: 50%;
-      }
-      .pageinfo p:first-of-type {
-        text-transform: uppercase;
-        font-size: 1.2em;
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -74,8 +27,9 @@
     </header>
     <div class="pageinfo">
     <article>
-      <h1>Om våra produkter</h1>
-      <h2>UniTag & UniChip</h2>
+          <h1>Om våra produkter</h1>
+      <div class="pageinfo1">
+      <h2>UniTag</h2>
       <p>Vi vill göra det enklare med UniTag – Allt du behöver</p>
       <p>Med UniTag har du dina nycklar på ett och samma ställe - tiden då du
         får leta efter rätt nyckel är förbi!</p>
@@ -92,7 +46,7 @@
         och endast du kan använda din tagg. </p>
 
       <p>Beröringsfri tagg utförd i högblankt PVC material.</p>
-      <table width="30%" border="1" cellpadding="7">
+      <table class="flattable">
         <tr>
           <td colspan="2">Teknisk Specifikation UNITAG</td>
         </tr>
@@ -120,8 +74,9 @@
           <td>Färg</td>
           <td>Grön Blå</td>
         </tr>
-      </table>
+      </table></div>
 
+      <div class="pageinfo2">
       <h2>UniChip</h2>
       <p>Om du har ont i händerna, kognitiva svårigheter eller har
         svårt att hålla reda på en tagg finns den mer avancerade
@@ -130,9 +85,10 @@
         och vi erbjuder livstids garanti med regelbundna kontroller.
         Med UniChip har du samma möjligheter att koppla flera olika
         nycklar till din personliga UniTag eller UniChip.</p>
-        <table width="30%" border="1" cellpadding="7">
+        <table class="flattable">
           <tr>
             <td colspan="2">Teknisk Specifikation UNITAG</td>
+        <!--<td colspan="2">Teknisk Specifikation UNITAG</td> -->
           </tr>
           <tr>
             <td>Storlek</td>
@@ -159,14 +115,28 @@
             <td>Grön Blå</td>
           </tr>
         </table>
+      </div>
     </article>
     </div>
     <footer>
-    <div class="footer">
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
-    </div>
+      <div class="footer">
+        <div class="column">
+        <h1>Kontaktuppgifter</h1>
+          <ul class="lista">
+          <li>Unitag.info@unitag.com</li>
+          <li>0772 – 1337 1337</li>
+          <li>Säljargatan 101</li>
+          <li>Box 1337</li>
+          <li>Ankeborg</li>
+          </div>
+        <div class="column"><a href="dummy.html">
+          <img class="loggor"src="bilder/fblogga.svg"></a>
+        <a href="dummy.html">
+          <img class="loggor "src="bilder/twlogga.svg"></a>
+        <a href="dummy.html">
+          <img class="loggor" src="bilder/instlogga.svg"></a></div>
+        <div class="column"> </div>
+      </div>
     </footer>
   </body>
 </html>
