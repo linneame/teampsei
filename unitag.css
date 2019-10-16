@@ -167,8 +167,38 @@ nav a:hover::before{
 #om_oss p{
   font-family: 'Quicksand', sans-serif;
   line-height: 2em;
-  text-align: center;
+  text-align: left;
 }
+
+.about1{
+  box-sizing: border-box;
+  border: none;
+  height:50em;
+  background-image: url(about.jpg);
+  background-repeat: no-repeat;
+  overflow: none;
+  background-position: center;
+  opacity: 0.6;
+  z-index: 1;
+  position: relative;
+}
+
+.abouttext2{
+  margin-top: -48em;
+  margin-left: 14%;
+  margin-right: 14%;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-bottom: 2em;
+  text-align: center;
+  color: #014E96;
+  font-family: 'Quicksand', sans-serif;
+  opacity: 0.9;
+  z-index: 2;
+  position: absolute;
+  background-color: #def2f1;
+}
+
 
 .loginbox h1{
   font-family: 'Quicksand', sans-serif;
