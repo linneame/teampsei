@@ -336,7 +336,7 @@ nav a:hover::before{
     height: 150px;
     overflow: hidden;
     clear: both;
-    margin-top: 4%;
+
   }
 
   .column {
@@ -372,12 +372,7 @@ nav a:hover::before{
     margin-top: 5%;
   }
 
-.footer2{
-      background-color: #ffffff;
-      height: 200px;
-      padding: 2%;
-      overflow: hidden;
-  }
+
 
   .pageinfo {
     text-align: left;
@@ -565,9 +560,9 @@ td {
 }
 
 .askbox {
-  width: 50%;
   float: right;
-  margin-right: 10%;
+  margin-left: 80%;
+  margin-right: 3%;
   background: rgba(255,255,255,0.2);
   border: 2px solid #fff;
   border-radius: 20px/50px;
@@ -665,14 +660,3 @@ td {
     background: #014E96;
     color: #fff;
 }
-
-
-/*@media screen and (min width: 400px){
-  nav, ul, li{
-    flex:none;
-  }
-  nav, ul{
-    justify-content:center;
-  }
-}
-*/
