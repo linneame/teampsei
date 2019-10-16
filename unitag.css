@@ -387,11 +387,10 @@ nav a:hover::before{
     opacity: 0.6;
     z-index: 1;
     position: relative;
-    margin-bottom: 0;
   }
 
   .pagetext {
-    margin-top: -85em;
+    margin-top: -95em;
     color: #014E96;
     background-color: #def2f1;
     font-family: 'Quicksand', sans-serif;
@@ -474,13 +473,14 @@ td {
   padding: 15px 30px;
 }
 
-  .bildtagg {
+  #bildtagg {
     float: left;
     width: 48%;
     height: 24%;
     margin-left: 10%;
     margin-right: 2%;
   }
+
 
 .dummymain {
     font-family: 'Quicksand', sans-serif;
