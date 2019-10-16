@@ -372,8 +372,6 @@ nav a:hover::before{
     margin-top: 5%;
   }
 
-
-
   .pageinfo {
     text-align: left;
   }
@@ -403,7 +401,7 @@ nav a:hover::before{
   }
 
   #modelh1 {
-    opacity: 0;
+    opacity: 1;
   }
 
   .pageinfo1 {
@@ -507,7 +505,7 @@ td {
     color: #9BCDCD;
   }
 
-  .order{
+.order{
     position: absolute;
     z-index: 2;
     margin-top: -31em;
@@ -570,6 +568,7 @@ td {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   font-weight: 900;
+  margin-bottom: 3em;
 }
 
 .buttonAsk {
