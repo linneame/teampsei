@@ -385,11 +385,11 @@ nav a:hover::before{
     background-image: url(kretsar2.jpg);
     background-repeat: no-repeat;
     overflow: none;
-    background-position: center;
+    background-position: center center;
     opacity: 0.6;
     z-index: 1;
     position: relative;
-    margin-bottom: 0;
+    background-size: cover;
   }
 
   .pagetext {
@@ -422,7 +422,27 @@ nav a:hover::before{
     margin: 2% 5%;
     z-index: 3;
   }
-.pageinfo h1{
+
+/*  .pageinfo1, .pageinfo2 h1{
+    padding-top:3%;
+    color: #014E96;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  .pageinfo1, .pageinfo2 h2 {
+    padding: 0% 0% 1% 0%;
+    color: #014E96;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+  } */
+
+
+ .pageinfo h1{
     padding-top:3%;
     color: #014E96;
     text-transform: uppercase;
