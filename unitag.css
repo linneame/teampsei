@@ -372,6 +372,8 @@ nav a:hover::before{
     margin-top: 5%;
   }
 
+
+
   .pageinfo {
     text-align: left;
   }
@@ -391,7 +393,7 @@ nav a:hover::before{
   }
 
   .pagetext {
-    margin-top: -95em;
+    margin-top: -85em;
     color: #014E96;
     background-color: #def2f1;
     font-family: 'Quicksand', sans-serif;
@@ -402,7 +404,7 @@ nav a:hover::before{
   }
 
   #modelh1 {
-    opacity: 1;
+    opacity: 0;
   }
 
   .pageinfo1 {
@@ -494,14 +496,13 @@ td {
   padding: 15px 30px;
 }
 
-  #bildtagg {
+  .bildtagg {
     float: left;
     width: 48%;
     height: 24%;
     margin-left: 10%;
     margin-right: 2%;
   }
-
 
 .dummymain {
     font-family: 'Quicksand', sans-serif;
@@ -526,7 +527,7 @@ td {
     color: #9BCDCD;
   }
 
-.order{
+  .order{
     position: absolute;
     z-index: 2;
     margin-top: -31em;
@@ -589,7 +590,6 @@ td {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   font-weight: 900;
-  margin-bottom: 3em;
 }
 
 .buttonAsk {
