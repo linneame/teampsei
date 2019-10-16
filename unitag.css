@@ -511,16 +511,6 @@ td {
     margin-left: 40.7em;
   }
 
-.bg{
-  background-color: #fff;
-  margin-top: 2em;
-  padding-top:32em;
-  margin-right: 28em;
-  margin-left: 28em;
-  position: relative;
-  z-index: 1;
-}
-
 .box2{
   box-sizing: border-box;
   border: none;
@@ -556,7 +546,7 @@ td {
   text-align: center;
 }
 
-.askbox {
+/*.askbox {
   float: right;
   margin-left: 80%;
   margin-right: 3%;
@@ -656,4 +646,32 @@ td {
     font-family: 'Quicksand', sans-serif;
     background: #014E96;
     color: #fff;
+}*/
+
+.box3{
+  box-sizing: border-box;
+  border: none;
+  height:50em;
+  background-image: url(shopimg.jpg);
+  background-position: center;
+  opacity: 0.6;
+  z-index: 1;
+  position: relative;
+}
+
+.order{
+  margin-top: -42.5em;
+  margin-left: 32%;
+  margin-right: 25%;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  text-align: center;
+  color: #014E96;
+  font-family: 'Quicksand', sans-serif;
+  opacity: 0.9;
+  z-index: 2;
+  position: absolute;
+  background-color: #fff;
 }
