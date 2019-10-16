@@ -248,6 +248,7 @@ nav a:hover::before{
   border: none;
   background: #014E96;
   color: #fff;
+  border-radius: 20px;
 }
 
 .order input[type="submit"]:hover{
