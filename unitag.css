@@ -323,18 +323,49 @@ nav a:hover::before{
   .pageinfo {
     text-align: left;
   }
+
+  .boxmodeller {
+    box-sizing: border-box;
+    border: none;
+    height:85em;
+    background-image: url(kretsar2.jpg);
+    background-repeat: no-repeat;
+    overflow: none;
+    background-position: center;
+    opacity: 0.6;
+    z-index: 1;
+    position: relative;
+  }
+
+  .pagetext {
+    margin-top: -95em;
+    color: #014E96;
+    background-color: #def2f1;
+    font-family: 'Quicksand', sans-serif;
+    opacity: 0.9;
+    z-index: 2;
+    position: absolute;
+    width: 40%;
+  }
+
+  #modelh1 {
+    opacity: 0;
+  }
+
   .pageinfo1 {
     float: left;
     width: 40%;
-    background-color: #ffffff;
+    background-color: #def2f1;
     margin: 2% 5%;
+    z-index: 3;
   }
 
   .pageinfo2 {
     float: left;
     width: 40%;
-    background-color: #ffffff;
+    background-color: #def2f1;
     margin: 2% 5%;
+    z-index: 3;
   }
 .pageinfo h1{
     padding-top:3%;
@@ -364,6 +395,7 @@ nav a:hover::before{
   table {
     margin: 2% 5%;
     width: 80%;
+  /*  background-color: #014E96; */
   /*  position: 50%; */
   }
 
@@ -377,15 +409,15 @@ nav a:hover::before{
   }
 
   th {
-  background-color: rgb(112, 196, 105);
+  background-color: #014E96; /* rgb(112, 196, 105); */
   color: white;
   font-weight: normal;
   padding: 15px 30px;
   text-align: center;
 }
 td {
-  background-color: rgb(238, 238, 238);
-  color: rgb(111, 111, 111);
+  background-color: #014E96; /* rgb(238, 238, 238);  */
+  color: white; /* rgb(111, 111, 111); */
   padding: 15px 30px;
 }
 
@@ -393,9 +425,10 @@ td {
     float: left;
     width: 48%;
     height: 24%;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-right: 2%;
   }
+
 
 .dummymain {
     font-family: 'Quicksand', sans-serif;
@@ -465,6 +498,8 @@ td {
   position: absolute;
   background-color: #def2f1;
 }
+
+
 
 #tider{
   text-align: center;
